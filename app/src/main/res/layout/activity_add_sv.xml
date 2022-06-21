@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/namesv"
+        android:hint="Ten Sv"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/diachi"
+        android:hint="Dia chi"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/namsinh"
+        android:hint="Nam Sinh"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="200dp"
+            android:layout_margin="10dp"
+            android:id="@+id/listsv"
+            android:text="Them SV"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+</LinearLayout>
