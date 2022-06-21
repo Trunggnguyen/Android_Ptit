@@ -21,11 +21,6 @@
         android:layout_margin="10dp"
         android:id="@+id/dc"
         android:text="Ds phong" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:id="@+id/year"
-        android:text="Ds phong" />
+
 
 </LinearLayout>

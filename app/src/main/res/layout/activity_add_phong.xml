@@ -8,13 +8,13 @@
     tools:context=".ui.MainActivity">
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/namep"
+        android:id="@+id/name"
         android:hint="Ten Phong"
         android:layout_margin="10dp"
         android:layout_height="wrap_content"/>
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/loaip"
+        android:id="@+id/loai"
         android:hint="Loai Phong"
         android:layout_margin="10dp"
         android:layout_height="wrap_content"/>

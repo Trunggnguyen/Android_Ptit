@@ -1,6 +1,8 @@
 package com.nvtr.internalstorage.model;
 
-public class Class_B18DCCN672 {
+import java.io.Serializable;
+
+public class Class_B18DCCN672 implements Serializable {
     int idClass;
     String nameClass;
     String typeClass;

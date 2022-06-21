@@ -41,6 +41,13 @@ public class SvActivity extends AppCompatActivity {
 
     }
 
-
-
+    @Override
+    protected void onStart() {
+        super.onStart();
+        listitem = new ArrayList<>();
+        listitem.addAll(FIleHelper.docra(SvActivity.this));
+        setAdapter = new SVAdapter(listitem,this);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(setAdapter);
+    }
 }
