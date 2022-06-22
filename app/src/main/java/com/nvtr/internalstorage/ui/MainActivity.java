@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.nvtr.internalstorage.R;
 
 public class MainActivity extends AppCompatActivity {
-    Button btlistp, btlistsv;
+    Button btlistp, btlistsv, btlistsvp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btlistp = findViewById(R.id.listphong);
         btlistsv = findViewById(R.id.listsv);
+        btlistsvp = findViewById(R.id.listsvphong);
         btlistsv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent1 = new Intent(MainActivity.this, PhongActivity.class);
+                startActivity(intent1);
+            }
+        });
+        btlistsvp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(MainActivity.this, SvPhongActivity.class);
                 startActivity(intent1);
             }
         });

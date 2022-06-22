@@ -1,9 +1,25 @@
 package com.nvtr.internalstorage.model;
 
 public class ListStudent_B18DCCN672 {
+    int id;
     int idStudent ;
     int idClass;
     int year;
+
+    public ListStudent_B18DCCN672(int id, int idStudent, int idClass, int year) {
+        this.id = id;
+        this.idStudent = idStudent;
+        this.idClass = idClass;
+        this.year = year;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getIdStudent() {
         return idStudent;
@@ -29,11 +45,6 @@ public class ListStudent_B18DCCN672 {
         this.year = year;
     }
 
-    public ListStudent_B18DCCN672(int idStudent, int idClass, int year) {
-        this.idStudent = idStudent;
-        this.idClass = idClass;
-        this.year = year;
-    }
 
     public ListStudent_B18DCCN672() {
     }

@@ -5,9 +5,12 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_phong.xml" value="0.1261682242990654" />
         <entry key="app/src/main/res/layout/activity_add_sv.xml" value="0.1261682242990654" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12471131639722864" />
+        <entry key="app/src/main/res/layout/activity_add_sv_phong.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/activity_ds_sv_phong.xml" value="0.26927083333333335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4578030522370724" />
         <entry key="app/src/main/res/layout/activity_phong.xml" value="0.12053571428571429" />
-        <entry key="app/src/main/res/layout/activity_sv.xml" value="0.12053571428571429" />
+        <entry key="app/src/main/res/layout/activity_sv.xml" value="0.2994602748325893" />
+        <entry key="app/src/main/res/layout/activity_sv_phong.xml" value="0.26927083333333335" />
         <entry key="app/src/main/res/layout/item_listsv.xml" value="0.415625" />
         <entry key="app/src/main/res/layout/item_phong.xml" value="0.415625" />
         <entry key="app/src/main/res/layout/item_sv.xml" value="0.415625" />
